@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1C7078279C79AB00032014 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = ED1C7077279C79AB00032014 /* Charts */; };
+		ED1C707A279C79E700032014 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C7079279C79E700032014 /* ChartViewController.swift */; };
+		ED35BEF32794A69400E53BEA /* Lab4CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED35BEF22794A69400E53BEA /* Lab4CalcViewController.swift */; };
+		EDA8DF7827947385008AAE38 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8DF7727947385008AAE38 /* PDFViewController.swift */; };
+		EDC505D427949BD10064D0FF /* lab4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDC505D327949BD10064D0FF /* lab4.pdf */; };
+		EDC86A812767CA4F00D7A329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC86A802767CA4F00D7A329 /* AppDelegate.swift */; };
+		EDC86A832767CA4F00D7A329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC86A822767CA4F00D7A329 /* SceneDelegate.swift */; };
+		EDC86A852767CA4F00D7A329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC86A842767CA4F00D7A329 /* ViewController.swift */; };
+		EDC86A882767CA4F00D7A329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC86A862767CA4F00D7A329 /* Main.storyboard */; };
+		EDC86A8A2767CA5000D7A329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC86A892767CA5000D7A329 /* Assets.xcassets */; };
+		EDC86A8D2767CA5000D7A329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC86A8B2767CA5000D7A329 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED1C7079279C79E700032014 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		ED35BEF22794A69400E53BEA /* Lab4CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4CalcViewController.swift; sourceTree = "<group>"; };
+		EDA8DF7727947385008AAE38 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		EDC505D327949BD10064D0FF /* lab4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lab4.pdf; sourceTree = "<group>"; };
+		EDC86A7D2767CA4F00D7A329 /* rzgmuPhysics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rzgmuPhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC86A802767CA4F00D7A329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC86A822767CA4F00D7A329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDC86A842767CA4F00D7A329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC86A872767CA4F00D7A329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC86A892767CA5000D7A329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC86A8C2767CA5000D7A329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC86A8E2767CA5000D7A329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC86A7A2767CA4F00D7A329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1C7078279C79AB00032014 /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC505D227949BAC0064D0FF /* PDF_labs */ = {
+			isa = PBXGroup;
+			children = (
+				EDC505D327949BD10064D0FF /* lab4.pdf */,
+			);
+			path = PDF_labs;
+			sourceTree = "<group>";
+		};
+		EDC86A742767CA4F00D7A329 = {
+			isa = PBXGroup;
+			children = (
+				EDC86A7F2767CA4F00D7A329 /* rzgmuPhysics */,
+				EDC86A7E2767CA4F00D7A329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC86A7E2767CA4F00D7A329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC86A7D2767CA4F00D7A329 /* rzgmuPhysics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC86A7F2767CA4F00D7A329 /* rzgmuPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				EDC505D227949BAC0064D0FF /* PDF_labs */,
+				EDC86A802767CA4F00D7A329 /* AppDelegate.swift */,
+				EDC86A822767CA4F00D7A329 /* SceneDelegate.swift */,
+				EDC86A842767CA4F00D7A329 /* ViewController.swift */,
+				EDC86A862767CA4F00D7A329 /* Main.storyboard */,
+				EDC86A892767CA5000D7A329 /* Assets.xcassets */,
+				EDC86A8B2767CA5000D7A329 /* LaunchScreen.storyboard */,
+				EDC86A8E2767CA5000D7A329 /* Info.plist */,
+				ED35BEF22794A69400E53BEA /* Lab4CalcViewController.swift */,
+				EDA8DF7727947385008AAE38 /* PDFViewController.swift */,
+				ED1C7079279C79E700032014 /* ChartViewController.swift */,
+			);
+			path = rzgmuPhysics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC86A7C2767CA4F00D7A329 /* rzgmuPhysics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC86A912767CA5000D7A329 /* Build configuration list for PBXNativeTarget "rzgmuPhysics" */;
+			buildPhases = (
+				EDC86A792767CA4F00D7A329 /* Sources */,
+				EDC86A7A2767CA4F00D7A329 /* Frameworks */,
+				EDC86A7B2767CA4F00D7A329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rzgmuPhysics;
+			packageProductDependencies = (
+				ED1C7077279C79AB00032014 /* Charts */,
+			);
+			productName = rzgmuPhysics;
+			productReference = EDC86A7D2767CA4F00D7A329 /* rzgmuPhysics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC86A752767CA4F00D7A329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EDC86A7C2767CA4F00D7A329 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = EDC86A782767CA4F00D7A329 /* Build configuration list for PBXProject "rzgmuPhysics" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC86A742767CA4F00D7A329;
+			packageReferences = (
+				ED1C7076279C79AB00032014 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = EDC86A7E2767CA4F00D7A329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC86A7C2767CA4F00D7A329 /* rzgmuPhysics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC86A7B2767CA4F00D7A329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC505D427949BD10064D0FF /* lab4.pdf in Resources */,
+				EDC86A8D2767CA5000D7A329 /* LaunchScreen.storyboard in Resources */,
+				EDC86A8A2767CA5000D7A329 /* Assets.xcassets in Resources */,
+				EDC86A882767CA4F00D7A329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC86A792767CA4F00D7A329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC86A852767CA4F00D7A329 /* ViewController.swift in Sources */,
+				ED35BEF32794A69400E53BEA /* Lab4CalcViewController.swift in Sources */,
+				EDC86A812767CA4F00D7A329 /* AppDelegate.swift in Sources */,
+				EDC86A832767CA4F00D7A329 /* SceneDelegate.swift in Sources */,
+				EDA8DF7827947385008AAE38 /* PDFViewController.swift in Sources */,
+				ED1C707A279C79E700032014 /* ChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC86A862767CA4F00D7A329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC86A872767CA4F00D7A329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC86A8B2767CA5000D7A329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC86A8C2767CA5000D7A329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC86A8F2767CA5000D7A329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC86A902767CA5000D7A329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC86A922767CA5000D7A329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN7NC9GXTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rzgmuPhysics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaksin.rzgmuPhysics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC86A932767CA5000D7A329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN7NC9GXTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rzgmuPhysics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaksin.rzgmuPhysics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC86A782767CA4F00D7A329 /* Build configuration list for PBXProject "rzgmuPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC86A8F2767CA5000D7A329 /* Debug */,
+				EDC86A902767CA5000D7A329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC86A912767CA5000D7A329 /* Build configuration list for PBXNativeTarget "rzgmuPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC86A922767CA5000D7A329 /* Debug */,
+				EDC86A932767CA5000D7A329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED1C7076279C79AB00032014 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED1C7077279C79AB00032014 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED1C7076279C79AB00032014 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EDC86A752767CA4F00D7A329 /* Project object */;
+}
